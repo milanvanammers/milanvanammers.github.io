@@ -1,13 +1,7 @@
 <html>
 <link href="style.css" type="text/css" rel="stylesheet">
-     <?php
-        $dir = 'C:\xampp\htdocs\myCodes\photoPack';
-        $a = scandir($dir);
-        $awithquote = implode("','",$a);
-        $dermpiclist = json_encode($a);
-        ?>
-    <!--
-    <div id="printarray"></div>
+     
+    
 <script>
     let dermpiclist = <?php echo $dermpiclist;?> ;
     document.getElementById("printarray").innerHTML =   dermpiclist
